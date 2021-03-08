@@ -1,7 +1,6 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background:#F6EBD7;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
@@ -27,19 +26,57 @@ color: #506137;
   
 }
 h1{
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  text-align: center;
+  
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.enter {
+padding-top: 80%;
+margin: auto;
+width: 60%;
+padding: 10px;
+}
+
+/* Make the image responsive */
+
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+  margin: 0;
   position: absolute;
-  font-size: 72px;
-line-height: 102px;
-/* identical to box height */
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#btn img {
+  
+    height: 100%;  
+    width: 100%;
+}
+.enter .btn:hover {
 
-letter-spacing: 0.05em;
+}
 
-color: #506137;
+.first_row{
+  text-align: center;
+  margin-bottom:10%;
+}
+.flower_container, .succulent_container{
+  display:inline-block;
+  text-align: center;
+  width: 45%
+}
 
+.second_row{
+  margin top:10%;
+  text-align: center;
+  margin-bottom:10%;
+}
+.herbs_container, .vegies_container{
+  display:inline-block;
+  text-align: center;
+  width: 45%;
 }
   
 
