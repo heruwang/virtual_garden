@@ -1,5 +1,5 @@
 /* CSS files add styling rules to your content */
-
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Lato&family=Lobster&family=Montserrat&family=Oswald&family=Shippori+Mincho&display=swap');
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
@@ -42,6 +42,7 @@ padding: 10px;
 
 /* Style the button and place it in the middle of the container/image */
 .btn {
+  border-style: none;
   margin: 0;
   position: absolute;
   top: 60%;
@@ -59,9 +60,9 @@ padding: 10px;
 }
 
 .first_row{ 
-  margin top:10%;
+  margin-top:10%;
   text-align: center;
-  margin-bottom:10%;
+  margin-bottom:5%;
 }
 .flower_container, .succulent_container{
   display:inline-block;
@@ -70,7 +71,6 @@ padding: 10px;
 }
 
 .second_row{
-  margin top:10%;
   text-align: center;
   margin-bottom:10%;
 }
