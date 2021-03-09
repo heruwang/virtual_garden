@@ -5,29 +5,6 @@ body {
   margin: 2em;
 }
 
-/*h1 {
-position: absolute;
-width: 619px;
-height: 102px;
-left: 267px;
-top: 145px;
-font-family: Arial Black;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 102px;
-/* identical to box height */
-
-/*letter-spacing: 0.05em;
-
-color: #506137;
-}*/
-.title{
-  
-}
-h1{
-  
-}
 
 /* Container needed to position the button. Adjust the width as needed */
 .enter {
@@ -37,11 +14,10 @@ width: 60%;
 padding: 10px;
 }
 
-/* Make the image responsive */
-
-
 /* Style the button and place it in the middle of the container/image */
-.btn {
+.enter, input {
+  weight: 150px;
+  height: 60px;
   border-style: none;
   margin: 0;
   position: absolute;
@@ -50,13 +26,14 @@ padding: 10px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-#btn img {
-  
-    height: 100%;  
-    width: 100%;
-}
-.enter .btn:hover {
 
+
+.exit{
+  border-style: none;
+  margin: 0;
+  position: absolute;
+  top:5%;
+  left: 10%;
 }
 
 .first_row{ 
@@ -79,6 +56,25 @@ padding: 10px;
   text-align: center;
   width: 45%;
 }
-  
+.top-left{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.top-left-2{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.top-left-3{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.top-left-4{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
 
 }
