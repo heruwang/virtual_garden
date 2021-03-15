@@ -1,6 +1,6 @@
 /* CSS files add styling rules to your content */
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Lato&family=Lobster&family=Montserrat&family=Oswald&family=Shippori+Mincho&display=swap');
-body {
+body{
   font-family: helvetica, arial, sans-serif;
 }
 
@@ -8,7 +8,7 @@ h1{
   margin: 0px;
 }
 /* Container needed to position the button. Adjust the width as needed */
-.enter {
+.enter{
 padding-top: 80%;
 margin: auto;
 width: 60%;
@@ -16,7 +16,7 @@ padding: 10px;
 }
 
 /* Style the button and place it in the middle of the container/image */
-.enter, input {
+.enter, input{
   weight: 150px;
   height: 60px;
   border-style: none;
@@ -24,8 +24,8 @@ padding: 10px;
   position: absolute;
   top: 60%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate( -50%, -50%);
+  transform: translate( -50%, -50%);
 }
 
 
@@ -33,27 +33,27 @@ padding: 10px;
   border-style: none;
   margin: 0;
   position: absolute;
-  top:5%;
+  top: 5%;
   left: 10%;
 }
 
 .first_row{ 
-  margin-top:10%;
+  margin-top: 10%;
   text-align: center;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 .flower_container, .succulent_container{
-  display:inline-block;
+  display: inline-block;
   text-align: center;
-  width: 45%
+  width: 45%;
 }
 
 .second_row{
   text-align: center;
-  margin-bottom:10%;
+  margin-bottom: 10%;
 }
 .herbs_container, .vegies_container{
-  display:inline-block;
+  display: inline-block;
   text-align: center;
   width: 15%;
 }
@@ -83,16 +83,16 @@ padding: 10px;
   margin: 0px;
 }
 .plant_container, .tool_bar, .instruction_container{
-  display:inline-block;
+  display: inline-block;
   text-align: center;
-  width: 15%
+  width: 15%;
 }
 #tulip{
   max-width: 300px;
-  height: auto
+  height: auto;
 }
 
-.popup_instruction_container.active {
+.popup_instruction_container.active{
     transition-delay: 1s;
     visibility: visible;
     text-align: left;
@@ -100,7 +100,7 @@ padding: 10px;
     overflow: scroll;
 }
 
-.popup_instruction_container {
+.popup_instruction_container{
     visibility: hidden;
     position: absolute;
     background: #ffffff;
@@ -111,3 +111,4 @@ padding: 10px;
     left: 25%;
     top: 15%;
 }
+
