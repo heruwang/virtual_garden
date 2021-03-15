@@ -55,7 +55,7 @@ padding: 10px;
 .herbs_container, .vegies_container{
   display:inline-block;
   text-align: center;
-  width: 45%;
+  width: 15%;
 }
 .top-left{
   position: absolute;
@@ -85,7 +85,11 @@ padding: 10px;
 .plant_container, .tool_bar, .instruction_container{
   display:inline-block;
   text-align: center;
-  width: 45%
+  width: 15%
+}
+#tulip{
+  max-width: 300px;
+  height: auto
 }
 
 .popup_instruction_container.active {
